@@ -1,3 +1,24 @@
 {
-  "commentTranslate.multiLineMerge": true
+  "commentTranslate.multiLineMerge": true,
+  "vscode-highlight-text.rules": {
+    "plaintext": {
+      "dark":{
+        "#696969": [
+          "v-if",
+        ],
+        "#e4db2f": [
+          // 匹配引号里面的值
+          "(\"[^\"]+\")",
+          // 匹配中文引号里面的值
+          "(“[^”]+”)",
+          // 匹配单引号里面的值
+          "('[^']+')"
+        ],
+        "#ff2929":[
+          // 匹配数字
+          "\\b\\d+\\b"
+        ]
+      },
+  },
+}
 }
