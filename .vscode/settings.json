@@ -19,5 +19,7 @@
       }
     }
   },
-  "editor.fontFamily": "Cascadia Code,Fira Code,Menlo, Monaco, 'Courier New', monospace,Source Han Sans CN"
+  "editor.fontFamily": "Cascadia Code,Fira Code,Menlo, Monaco, 'Courier New', monospace,Source Han Sans CN",
+  "fast-jump.click": true,
+  "git.ignoreLimitWarning": true
 }

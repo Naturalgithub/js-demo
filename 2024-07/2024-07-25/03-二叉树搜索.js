@@ -42,9 +42,7 @@ function f1 (matchList, target) {
 	}	
 	
 	return f1(arr, target)
-
-
 }
 
-let bool  = f1([a], 'H')
+let bool = f1([a], 'H')
 console.log(bool)

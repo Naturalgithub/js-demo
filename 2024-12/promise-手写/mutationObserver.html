@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const p = document.createElement('p')
+        setTimeout(() => {console.log(1)})
+        const observer = new MutationObserver(() => {
+            console.log("变化了")
+        })
+        observer.observe(p, {childList: true})
+        p.innerHTML = "hello world"
+        console.log(2)
+
+        // 2 变化了 1
+    </script>
+</body>
+</html>
