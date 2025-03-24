@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server --watch db.json"
+    "json:server": "json-server --port 7666 --watch db.json"
   },
   "author": "",
   "license": "ISC",

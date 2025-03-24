@@ -4,6 +4,7 @@
 
 a{
     text-decoration: none;
+    color: none ;
 }
 
 .navigation{
@@ -13,11 +14,11 @@ a{
 }
 
 .navigation:hover{
-    color: #ccc;
+    color: yellow;
 }
 
 .active{
-    color: #ccc;
+    color: red;
 }
 
 .table{
