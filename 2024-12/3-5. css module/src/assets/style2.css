@@ -1,9 +1,0 @@
-/* article的样式 */
-
-.c1 {
-    color:green;
-}
-
-.c2+.c3 {
-    background: brown;
-}

@@ -1,0 +1,17 @@
+{
+    "watch": [
+        "*js",
+        "*json"
+    ],
+    "ignore": [
+        "node_modules",
+        "nodemon.json",
+        "package.json",
+        "package-lock.json",
+        "public",
+        "client"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
