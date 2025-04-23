@@ -7,7 +7,7 @@ class ShenyandayiScraper:
     """A scraper for the Shenyandayi dictionary API"""
     
     BASE_URL = 'https://www.shenyandayi.com/api/v1/words/pc/semantic/defi/'
-    
+    # 看我 
     def __init__(self):
         self.session = requests.Session()
         self.headers = {
